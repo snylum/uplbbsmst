@@ -136,6 +136,58 @@
     });
   }
 
+  function initReveal() {
+    const targets = document.querySelectorAll(
+      ".hero-badge, .hero h1, .hero p, .hero-actions, .hero-stats, " +
+      ".section-head-row, .eyebrow, .section-title, .section-lead, " +
+      ".grid > *, .news-card, .callout, .accordion-item, table, .table-wrap"
+    );
+    if (!("IntersectionObserver" in window) || matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      targets.forEach((el) => el.classList.add("reveal", "is-visible"));
+      return;
+    }
+    targets.forEach((el, i) => {
+      el.classList.add("reveal");
+      el.style.transitionDelay = Math.min(i % 6, 5) * 60 + "ms";
+    });
+    const io = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("is-visible");
+            io.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.1, rootMargin: "0px 0px -40px 0px" }
+    );
+    targets.forEach((el) => io.observe(el));
+  }
+
+  // Hides a news card if it has no title, and hides its "Read more" link
+  // if no link URL was set by the admin (falls back to a plain text preview).
+  function initNewsCards() {
+    document.querySelectorAll("[data-news-item]").forEach((card) => {
+      const title = card.querySelector("h3");
+      const link = card.querySelector(".news-link");
+      const checkTitle = () => {
+        if (title && !title.textContent.trim()) card.hidden = true;
+      };
+      const checkLink = () => {
+        if (link && !link.getAttribute("href")) link.hidden = true;
+      };
+      // Content loads async; re-check shortly after content is applied.
+      setTimeout(() => {
+        checkTitle();
+        checkLink();
+      }, 0);
+      setTimeout(() => {
+        checkTitle();
+        checkLink();
+      }, 400);
+    });
+  }
+
   document.addEventListener("DOMContentLoaded", async () => {
     await includePartials();
     initNavToggle();
@@ -143,6 +195,8 @@
     setFooterYear();
     initAccordions();
     initContactForm();
-    loadContent();
+    await loadContent();
+    initNewsCards();
+    initReveal();
   });
 })();

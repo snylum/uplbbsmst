@@ -140,12 +140,23 @@
         { "key": "news.item1_date", "label": "Item 1 date", "type": "text" },
         { "key": "news.item1_title", "label": "Item 1 title", "type": "text" },
         { "key": "news.item1_body", "label": "Item 1 body", "type": "textarea" },
+        { "key": "news.item1_link", "label": "Item 1 link (leave blank for text-only preview)", "type": "text" },
         { "key": "news.item2_date", "label": "Item 2 date", "type": "text" },
         { "key": "news.item2_title", "label": "Item 2 title", "type": "text" },
         { "key": "news.item2_body", "label": "Item 2 body", "type": "textarea" },
+        { "key": "news.item2_link", "label": "Item 2 link (leave blank for text-only preview)", "type": "text" },
         { "key": "news.item3_date", "label": "Item 3 date", "type": "text" },
         { "key": "news.item3_title", "label": "Item 3 title", "type": "text" },
-        { "key": "news.item3_body", "label": "Item 3 body", "type": "textarea" }
+        { "key": "news.item3_body", "label": "Item 3 body", "type": "textarea" },
+        { "key": "news.item3_link", "label": "Item 3 link (leave blank for text-only preview)", "type": "text" },
+        { "key": "news.item4_date", "label": "Item 4 date (leave blank to hide)", "type": "text" },
+        { "key": "news.item4_title", "label": "Item 4 title (leave blank to hide)", "type": "text" },
+        { "key": "news.item4_body", "label": "Item 4 body", "type": "textarea" },
+        { "key": "news.item4_link", "label": "Item 4 link (leave blank for text-only preview)", "type": "text" },
+        { "key": "news.item5_date", "label": "Item 5 date (leave blank to hide)", "type": "text" },
+        { "key": "news.item5_title", "label": "Item 5 title (leave blank to hide)", "type": "text" },
+        { "key": "news.item5_body", "label": "Item 5 body", "type": "textarea" },
+        { "key": "news.item5_link", "label": "Item 5 link (leave blank for text-only preview)", "type": "text" }
       ]
     },
     {
