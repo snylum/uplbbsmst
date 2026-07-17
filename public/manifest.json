@@ -1,0 +1,166 @@
+{
+  "groups": [
+    {
+      "page": "home",
+      "label": "Home Page",
+      "fields": [
+        { "key": "home.hero_badge", "label": "Hero badge text", "type": "text" },
+        { "key": "home.hero_title", "label": "Hero title", "type": "text" },
+        { "key": "home.hero_subtitle", "label": "Hero subtitle", "type": "textarea" },
+        { "key": "home.stat1_num", "label": "Stat 1 number", "type": "text" },
+        { "key": "home.stat1_label", "label": "Stat 1 label", "type": "text" },
+        { "key": "home.stat2_num", "label": "Stat 2 number", "type": "text" },
+        { "key": "home.stat2_label", "label": "Stat 2 label", "type": "text" },
+        { "key": "home.stat3_num", "label": "Stat 3 number", "type": "text" },
+        { "key": "home.stat3_label", "label": "Stat 3 label", "type": "text" },
+        { "key": "home.stat4_num", "label": "Stat 4 number", "type": "text" },
+        { "key": "home.stat4_label", "label": "Stat 4 label", "type": "text" },
+        { "key": "home.intro_title", "label": "Intro section title", "type": "text" },
+        { "key": "home.intro_body", "label": "Intro section body", "type": "textarea" },
+        { "key": "home.pillar1_title", "label": "Pillar 1 title", "type": "text" },
+        { "key": "home.pillar1_body", "label": "Pillar 1 body", "type": "textarea" },
+        { "key": "home.pillar2_title", "label": "Pillar 2 title", "type": "text" },
+        { "key": "home.pillar2_body", "label": "Pillar 2 body", "type": "textarea" },
+        { "key": "home.pillar3_title", "label": "Pillar 3 title", "type": "text" },
+        { "key": "home.pillar3_body", "label": "Pillar 3 body", "type": "textarea" },
+        { "key": "home.highlight1_title", "label": "Highlight 1 title", "type": "text" },
+        { "key": "home.highlight1_body", "label": "Highlight 1 body", "type": "textarea" },
+        { "key": "home.highlight2_title", "label": "Highlight 2 title", "type": "text" },
+        { "key": "home.highlight2_body", "label": "Highlight 2 body", "type": "textarea" },
+        { "key": "home.highlight3_title", "label": "Highlight 3 title", "type": "text" },
+        { "key": "home.highlight3_body", "label": "Highlight 3 body", "type": "textarea" },
+        { "key": "home.highlight4_title", "label": "Highlight 4 title", "type": "text" },
+        { "key": "home.highlight4_body", "label": "Highlight 4 body", "type": "textarea" },
+        { "key": "home.callout_title", "label": "Call-to-action title", "type": "text" },
+        { "key": "home.callout_body", "label": "Call-to-action body", "type": "textarea" }
+      ]
+    },
+    {
+      "page": "about",
+      "label": "About Page",
+      "fields": [
+        { "key": "about.title", "label": "Page title", "type": "text" },
+        { "key": "about.intro", "label": "Intro", "type": "textarea" },
+        { "key": "about.mission_title", "label": "Mission title", "type": "text" },
+        { "key": "about.mission_body", "label": "Mission body", "type": "textarea" },
+        { "key": "about.vision_title", "label": "Vision title", "type": "text" },
+        { "key": "about.vision_body", "label": "Vision body", "type": "textarea" },
+        { "key": "about.objectives_title", "label": "Objectives title", "type": "text" },
+        { "key": "about.objectives_intro", "label": "Objectives intro", "type": "text" },
+        { "key": "about.objective1", "label": "Objective 1", "type": "textarea" },
+        { "key": "about.objective2", "label": "Objective 2", "type": "textarea" },
+        { "key": "about.objective3", "label": "Objective 3", "type": "textarea" },
+        { "key": "about.objective4", "label": "Objective 4", "type": "textarea" },
+        { "key": "about.objective5", "label": "Objective 5", "type": "textarea" },
+        { "key": "about.objective6", "label": "Objective 6", "type": "textarea" },
+        { "key": "about.history_title", "label": "History title", "type": "text" },
+        { "key": "about.history_body", "label": "History body", "type": "textarea" }
+      ]
+    },
+    {
+      "page": "curriculum",
+      "label": "Curriculum Page",
+      "fields": [
+        { "key": "curriculum.title", "label": "Page title", "type": "text" },
+        { "key": "curriculum.intro", "label": "Intro", "type": "textarea" },
+        { "key": "curriculum.row1_label", "label": "Table row 1 label", "type": "text" },
+        { "key": "curriculum.row1_units", "label": "Table row 1 units", "type": "text" },
+        { "key": "curriculum.row2_label", "label": "Table row 2 label", "type": "text" },
+        { "key": "curriculum.row2_units", "label": "Table row 2 units", "type": "text" },
+        { "key": "curriculum.row3_label", "label": "Table row 3 label", "type": "text" },
+        { "key": "curriculum.row3_units", "label": "Table row 3 units", "type": "text" },
+        { "key": "curriculum.row4_label", "label": "Table row 4 label", "type": "text" },
+        { "key": "curriculum.row4_units", "label": "Table row 4 units", "type": "text" },
+        { "key": "curriculum.row5_label", "label": "Table row 5 label", "type": "text" },
+        { "key": "curriculum.row5_units", "label": "Table row 5 units", "type": "text" },
+        { "key": "curriculum.sequence_title", "label": "Sequence section title", "type": "text" },
+        { "key": "curriculum.year1_body", "label": "Year 1 courses", "type": "textarea" },
+        { "key": "curriculum.year2_body", "label": "Year 2 courses", "type": "textarea" },
+        { "key": "curriculum.year3_body", "label": "Year 3 courses", "type": "textarea" },
+        { "key": "curriculum.year4_body", "label": "Year 4 courses", "type": "textarea" }
+      ]
+    },
+    {
+      "page": "faculty",
+      "label": "Faculty Page",
+      "fields": [
+        { "key": "faculty.title", "label": "Page title", "type": "text" },
+        { "key": "faculty.intro", "label": "Intro", "type": "textarea" },
+        { "key": "faculty.member1_name", "label": "Member 1 name", "type": "text" },
+        { "key": "faculty.member1_role", "label": "Member 1 role", "type": "text" },
+        { "key": "faculty.member1_bio", "label": "Member 1 bio", "type": "textarea" },
+        { "key": "faculty.member2_name", "label": "Member 2 name", "type": "text" },
+        { "key": "faculty.member2_role", "label": "Member 2 role", "type": "text" },
+        { "key": "faculty.member2_bio", "label": "Member 2 bio", "type": "textarea" },
+        { "key": "faculty.member3_name", "label": "Member 3 name", "type": "text" },
+        { "key": "faculty.member3_role", "label": "Member 3 role", "type": "text" },
+        { "key": "faculty.member3_bio", "label": "Member 3 bio", "type": "textarea" },
+        { "key": "faculty.member4_name", "label": "Member 4 name", "type": "text" },
+        { "key": "faculty.member4_role", "label": "Member 4 role", "type": "text" },
+        { "key": "faculty.member4_bio", "label": "Member 4 bio", "type": "textarea" },
+        { "key": "faculty.member5_name", "label": "Member 5 name", "type": "text" },
+        { "key": "faculty.member5_role", "label": "Member 5 role", "type": "text" },
+        { "key": "faculty.member5_bio", "label": "Member 5 bio", "type": "textarea" },
+        { "key": "faculty.member6_name", "label": "Member 6 name", "type": "text" },
+        { "key": "faculty.member6_role", "label": "Member 6 role", "type": "text" },
+        { "key": "faculty.member6_bio", "label": "Member 6 bio", "type": "textarea" }
+      ]
+    },
+    {
+      "page": "admissions",
+      "label": "Admissions Page",
+      "fields": [
+        { "key": "admissions.title", "label": "Page title", "type": "text" },
+        { "key": "admissions.intro", "label": "Intro", "type": "textarea" },
+        { "key": "admissions.freshmen_title", "label": "Freshmen title", "type": "text" },
+        { "key": "admissions.freshmen_body", "label": "Freshmen body", "type": "textarea" },
+        { "key": "admissions.shiftee_title", "label": "Shiftee title", "type": "text" },
+        { "key": "admissions.shiftee_body", "label": "Shiftee body", "type": "textarea" },
+        { "key": "admissions.checklist_title", "label": "Checklist title", "type": "text" },
+        { "key": "admissions.doc1_label", "label": "Document 1 label", "type": "text" },
+        { "key": "admissions.doc1_note", "label": "Document 1 note", "type": "text" },
+        { "key": "admissions.doc2_label", "label": "Document 2 label", "type": "text" },
+        { "key": "admissions.doc2_note", "label": "Document 2 note", "type": "text" },
+        { "key": "admissions.doc3_label", "label": "Document 3 label", "type": "text" },
+        { "key": "admissions.doc3_note", "label": "Document 3 note", "type": "text" },
+        { "key": "admissions.doc4_label", "label": "Document 4 label", "type": "text" },
+        { "key": "admissions.doc4_note", "label": "Document 4 note", "type": "text" },
+        { "key": "admissions.doc5_label", "label": "Document 5 label", "type": "text" },
+        { "key": "admissions.doc5_note", "label": "Document 5 note", "type": "text" },
+        { "key": "admissions.callout_title", "label": "Call-to-action title", "type": "text" },
+        { "key": "admissions.callout_body", "label": "Call-to-action body", "type": "textarea" }
+      ]
+    },
+    {
+      "page": "news",
+      "label": "News & Events Page",
+      "fields": [
+        { "key": "news.title", "label": "Page title", "type": "text" },
+        { "key": "news.intro", "label": "Intro", "type": "textarea" },
+        { "key": "news.item1_date", "label": "Item 1 date", "type": "text" },
+        { "key": "news.item1_title", "label": "Item 1 title", "type": "text" },
+        { "key": "news.item1_body", "label": "Item 1 body", "type": "textarea" },
+        { "key": "news.item2_date", "label": "Item 2 date", "type": "text" },
+        { "key": "news.item2_title", "label": "Item 2 title", "type": "text" },
+        { "key": "news.item2_body", "label": "Item 2 body", "type": "textarea" },
+        { "key": "news.item3_date", "label": "Item 3 date", "type": "text" },
+        { "key": "news.item3_title", "label": "Item 3 title", "type": "text" },
+        { "key": "news.item3_body", "label": "Item 3 body", "type": "textarea" }
+      ]
+    },
+    {
+      "page": "contact",
+      "label": "Contact Page",
+      "fields": [
+        { "key": "contact.title", "label": "Page title", "type": "text" },
+        { "key": "contact.intro", "label": "Intro", "type": "textarea" },
+        { "key": "contact.office_title", "label": "Office card title", "type": "text" },
+        { "key": "contact.office_address", "label": "Office address", "type": "textarea" },
+        { "key": "contact.office_email", "label": "Office email (display)", "type": "text" },
+        { "key": "contact.office_email_href", "label": "Office email (mailto link)", "type": "text" },
+        { "key": "contact.office_phone", "label": "Office phone", "type": "text" },
+        { "key": "contact.office_hours", "label": "Office hours", "type": "text" }
+      ]
+    }
+  ]
+}

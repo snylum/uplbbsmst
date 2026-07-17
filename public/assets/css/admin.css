@@ -1,0 +1,15 @@
+body.admin-body{ background: var(--paper-alt); }
+.admin-shell{ max-width: 900px; margin: 0 auto; padding: 2.5rem 1.25rem 4rem; }
+.admin-login{ max-width: 420px; margin: 4rem auto; background:#fff; border:1px solid var(--line); border-radius: var(--radius); padding:2rem; }
+.admin-login h1{ font-family: var(--font-serif); color: var(--up-maroon-dark); margin-top:0; font-size:1.4rem; }
+.admin-panel{ display:none; }
+.admin-panel.is-visible{ display:block; }
+.admin-login.is-hidden{ display:none; }
+.admin-header{ display:flex; justify-content:space-between; align-items:center; margin-bottom:1.5rem; flex-wrap:wrap; gap:1rem; }
+.admin-page-group{ background:#fff; border:1px solid var(--line); border-radius: var(--radius); padding:1.5rem; margin-bottom:1.5rem; }
+.admin-page-group h2{ font-family: var(--font-serif); color: var(--up-maroon-dark); margin-top:0; border-bottom:2px solid var(--up-gold); padding-bottom:.5rem; }
+.admin-field label{ font-size:.85rem; }
+.save-bar{ position:sticky; bottom:0; background:#fff; border-top:2px solid var(--up-maroon); padding:1rem; display:flex; justify-content:space-between; align-items:center; gap:1rem; flex-wrap:wrap; border-radius: var(--radius) var(--radius) 0 0; }
+.pill{ display:inline-block; padding:.2rem .6rem; border-radius:999px; font-size:.75rem; font-weight:700; }
+.pill-ok{ background:#e6f4ea; color:#1e4d2b; }
+.pill-bad{ background:#fbe8e8; color:#7b1113; }

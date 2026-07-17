@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Site Administration | BS Mathematics and Science Teaching</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="stylesheet" href="/assets/css/styles.css">
+<link rel="stylesheet" href="/assets/css/admin.css">
+</head>
+<body class="admin-body">
+<a class="skip-link" href="#admin-main">Skip to main content</a>
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="/index.html">
+      <span class="brand-mark" aria-hidden="true">BSc</span>
+      <span class="brand-text">
+        <p class="brand-title">BSMST Site Administration</p>
+        <p class="brand-sub">Restricted access</p>
+      </span>
+    </a>
+    <a class="btn btn-outline" style="color:var(--up-maroon-dark); border-color:var(--up-maroon-dark);" href="/index.html">Back to Site</a>
+  </div>
+</header>
+
+<main id="admin-main">
+  <div class="admin-shell">
+
+    <section id="login-section" class="admin-login" aria-labelledby="login-heading">
+      <h1 id="login-heading">Administrator Sign In</h1>
+      <p>Access is restricted to the authorized program administrator email.</p>
+      <p id="login-status" class="form-status error" hidden role="alert"></p>
+      <form id="login-form" novalidate>
+        <div class="form-field">
+          <label for="login-email">Email Address</label>
+          <input type="email" id="login-email" name="email" required autocomplete="username">
+        </div>
+        <div class="form-field">
+          <label for="login-password">Password</label>
+          <input type="password" id="login-password" name="password" required autocomplete="current-password">
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Sign In</button>
+      </form>
+    </section>
+
+    <section id="admin-panel" class="admin-panel" aria-labelledby="panel-heading">
+      <div class="admin-header">
+        <div>
+          <h1 id="panel-heading" class="mb-0">Content Manager</h1>
+          <p class="mt-0">Signed in as <strong id="admin-email-display"></strong></p>
+        </div>
+        <div class="stack" style="flex-direction:row;">
+          <button type="button" class="btn btn-maroon btn-small" id="messages-toggle">View Contact Messages</button>
+          <button type="button" class="btn btn-outline" style="color:var(--up-maroon-dark); border-color:var(--up-maroon-dark);" id="logout-btn">Sign Out</button>
+        </div>
+      </div>
+
+      <p id="save-status" class="form-status" hidden role="status"></p>
+
+      <section id="messages-panel" hidden>
+        <h2 class="section-title">Contact Form Messages</h2>
+        <div id="messages-list" class="stack"></div>
+      </section>
+
+      <form id="content-form">
+        <div id="field-groups"></div>
+        <div class="save-bar">
+          <span id="unsaved-indicator" class="pill pill-bad" hidden>Unsaved changes</span>
+          <div class="stack" style="flex-direction:row;">
+            <button type="button" class="btn btn-outline" style="color:var(--up-maroon-dark); border-color:var(--up-maroon-dark);" id="reload-btn">Reload</button>
+            <button type="submit" class="btn btn-primary">Save Changes</button>
+          </div>
+        </div>
+      </form>
+    </section>
+
+  </div>
+</main>
+
+<div data-include="/partials/footer.html"></div>
+<script src="/assets/js/main.js"></script>
+<script src="/admin/admin.js"></script>
+</body>
+</html>
